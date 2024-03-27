@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Mary's Coffee Shop</h1>
+        <a href="#treat">Treat of the week</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Send us a Message</h2>
+            <form>
+                <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name" placeholder="Full name">
+                </div>
+
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="name" id="name">
+                </div>
+
+                <div>
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message" cols="30" row="10"></textarea>
+                </div>
+
+                <div>
+                    <label for="size">Choose your shirt size</label>
+                    <select id="size" name="size">
+                        <option value="size-s">S</option>
+                        <option value="size-m">M</option>
+                        <option value="size-l">L</option>
+                    </select>
+                </div>
+
+                <!-- radio button-->
+                <div>
+                    <label for="low">0-1</label>
+                    <input type="radio" id="low" name="range" value="0-1">
+                    <label for="medium">2-3</label>
+                    <input type="radio" id="medium" name="range" value="2-3">
+                    <label for="high">4-5</label>
+                    <input type="radio" id="high" name="range" value="4-5">
+                </div>
+
+                <button type="submit">Send</button>
+                <input type="submit" value="Submit" class="submit-button">
+            </form>
+
+        </section>
+    </main>
+</body>
+<footer>
+    <p>&copy; 2024 Mary's Coffee Shop</p>
+</footer>
+</html>
